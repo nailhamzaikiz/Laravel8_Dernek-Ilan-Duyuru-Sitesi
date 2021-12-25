@@ -1,0 +1,253 @@
+/*
+
+
+
+	Bismillahirrahmanirrahim diye baþlayalým.
+
+	Ferhat DOÐAN
+
+	14.01.2011
+
+	Deðiþken adlarý biraz gýcýk gelebilir ayný deðiþkenler olmasýn diye yaptým :)
+
+
+
+*/
+
+
+
+#anketsistemi{
+
+	width:290px;
+
+	height:auto;
+
+	padding-top:-20px;
+
+    margin:0;
+
+    margin-left:15px;
+
+	margin-bottom:5px;
+
+	background-color:#fff;
+
+}
+
+#anketsistemiarka{
+
+	width:278px;
+
+	height:39px;
+
+	border:1px #dedede solid;
+
+	background-color:#f9f9f9;
+
+}
+
+* html #anketsistemiarka{
+
+	width:280px;
+
+	height:41px;
+
+}
+
+#anketsistemiarkasol{
+
+	background: url(Resimler/sagoval.png) no-repeat;
+
+	width:10px;
+
+	height:42px;
+
+	margin-top:-51px;
+
+	margin-left:277px;
+
+	margin-bottom:15px;
+
+}
+
+* html #anketsistemiarkasol{
+
+	height:41px;
+
+	margin-top:-51px;
+
+}
+
+#anketsistemiicon{
+
+	position : absolute;
+
+	background: url(Resimler/anketicon.png) no-repeat;
+
+	width:43px;
+
+	height:43px;
+
+	margin-left:-12px;
+
+	margin-top:-1px;
+
+}
+
+#anketsistemiiconalti{
+
+	background: url(Resimler/iconalti.png) no-repeat;
+
+	width:59px;
+
+	height:19px;
+
+	margin-left:-18px;
+
+	margin-top:-9px;
+
+}
+
+#anketsistemisoru{
+
+	width:250px;
+
+	position: absolute;
+
+	margin-left:35px;
+
+	font-family:tahoma;
+
+	font-size:12px;
+
+	margin-top:5px;
+
+	font-weight:bold;
+
+}
+
+.anketsistemicevap{
+
+	padding-left:5px;
+
+	margin-top:5px;
+
+	color:#494949;
+
+	font-size:12px;
+
+	font-weight:bold;
+
+	font-family:Arial;
+
+	margin-left:-5px;
+
+}
+
+#anketsistemibutton{
+
+	float:left;
+
+	background: url(Resimler/buttonarka.png) no-repeat;
+
+	width:142px;
+
+	height:32px;
+
+	border:0px;
+
+	margin-top:10px;
+
+	margin-left:-3px;
+
+	margin-right:3px;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	color:#1d1d1d;
+
+	font-family:Arial;
+
+}
+
+* html #anketsistemibutton{	margin-left:-5px;}
+
+#anketsistemisubmit{
+
+	background: url(Resimler/sonucarka.png) no-repeat;
+
+	width:142px;
+
+	height:32px;
+
+	border:0;
+
+	margin-top:10px;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	color:#1d1d1d;
+
+	font-family:Arial;
+
+}
+
+.anketsistemihr{
+
+	width:280px;
+
+	border-bottom:2px #dedede dashed;
+
+	margin-left:0px;
+
+	color:#fff;
+
+	margin-top:4px;
+
+	margin-right: 0;
+
+	margin-bottom:7px;
+
+}
+
+.anketsistemiload{
+
+	width:280px;
+
+	height:10px;
+
+	font-size:0px;
+
+	border:1px #dedede solid;
+
+	background-color:#f9f9f9;
+
+	margin-top:2px;
+
+	margin-bottom:2px;
+
+}
+
+* html .anketsistemiload{float:left;}
+
+.anketsistemiload2{
+
+	height:10px;
+
+	font-size:0px;
+
+	background-color:#55e10d;
+
+
+
+}
+
+.anketsistemioyadet{
+
+	font-size:10px;
+
+}

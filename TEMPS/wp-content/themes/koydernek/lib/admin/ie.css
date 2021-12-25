@@ -1,0 +1,18 @@
+#latest-posts .box1 {
+        padding-bottom: 20px;
+}
+
+#comments-list .box2,
+#trackbacks-list .box2 {
+        padding-bottom: 20px;
+}
+
+.btn span, .more-link span,
+a .overlay1, a .overlay2, a .overlay3 {
+        cursor: pointer;
+}
+
+.box-sidebar {
+	margin: 0px;
+	padding: 0 0 20px;
+}

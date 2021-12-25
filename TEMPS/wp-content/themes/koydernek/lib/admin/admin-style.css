@@ -1,0 +1,317 @@
+/*  ##################################
+    TS ADMIN STYLES
+    ################################## */
+    
+#fors-wrap {
+	width: 780px;
+	margin: 20px 0;
+	padding: 0 0 1px;
+	background: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 10px;	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#fors-options-header {
+	position: relative;
+	height: 69px;
+	background: transparent url(img/bg-options-header.png) repeat-x left top;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+}
+
+#fors-options-header img {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#fors-options-header h2 {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	padding: 0px;
+	line-height: 30px;
+	color: #363636;
+	font-size: 16px;
+	text-shadow: 1px 1px 0px #eee;
+}
+
+#fors-options-subheader {
+	margin: 0 0 20px;
+	background: #eee;
+	line-height: 30px;
+	color: #464646;
+	font-size: 11px;
+	text-shadow: 1px 1px 0px #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+#fors-message {
+	margin: 0 0 0 20px;
+	padding: 0 0 0 20px;
+	background: transparent url(img/bg-options-ok.png) no-repeat left center;
+}
+
+#fors-options-subheader ul {
+	float: right;
+	padding: 0 20px;
+}
+
+#fors-options-subheader li {
+	display: inline;
+	margin: 0 0 0 10px;
+}
+
+#fors-options-subheader a {
+	padding: 2px 0 2px 20px;
+	text-decoration: none;
+	color: #464646;
+	font-size: 11px;
+}
+
+#fors-options-subheader a:hover {
+	color: #000;
+}
+
+#fors-options-subheader a.fors-options-info {
+	background: transparent url(img/bg-options-info.png) no-repeat left center;
+}
+
+#fors-options-subheader a.fors-options-docu {
+	background: transparent url(img/bg-options-docu.png) no-repeat left center;
+}
+
+#fors-options-subheader a.fors-options-forums {
+	background: transparent url(img/bg-options-forums.png) no-repeat left center;
+}
+
+#fors-options-wrap,
+#fors-themes-wrap,
+#fors-news-wrap {
+	width: 740px;
+	margin: 0 auto;
+}
+
+.fors-section {
+	padding: 0 0 20px;
+}
+
+.fors-section-inner {
+	height: 101%;	
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.fors-section h3 {
+	margin: 0px;
+	padding: 20px;
+	background: #eee url(img/bg-options-h3.png) repeat-x left top;
+	color: #464646;
+	text-shadow: 1px 1px 0px #fff;
+	cursor: pointer;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-topleft: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-webkit-border-top-left-radius: 7px;
+}
+
+.fors-section h3.toggle-open {
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.fors-section h3 span {
+	display: block;
+	padding: 0 0 0 30px;
+}
+
+.fors-section h3.toggle-open span {
+	background: url(img/bg-section-closed.png) no-repeat left center;
+}
+
+.fors-section h3.toggle-close span {
+	background: url(img/bg-section-open.png) no-repeat left center;
+}
+
+#fors-themes-wrap .fors-section h3.toggle-open span {
+	background: url(img/bg-section-closed-themes.png) no-repeat left center;
+}
+
+#fors-themes-wrap .fors-section h3.toggle-close span {
+	background: url(img/bg-section-open-themes.png) no-repeat left center;
+}
+
+#fors-news-wrap .fors-section h3.toggle-open span {
+	background: url(img/bg-section-closed-news.png) no-repeat left center;
+}
+
+#fors-news-wrap .fors-section h3.toggle-close span {
+	background: url(img/bg-section-open-news.png) no-repeat left center;
+}
+
+.fors-submit, .fors-news-date {
+	float: right;
+	width: auto;
+	margin: 17px 20px 0 0;
+}
+
+.fors-info {
+	float: right;
+	width: auto;
+	margin: 20px 20px 0 0;
+}
+
+.fors-news-date {
+	float: right;
+	width: auto;
+	margin: 20px 20px 0 0;
+	color: #666;
+	font-size: 10px;
+}
+
+.fors-submit input {
+	margin: 0px;
+}
+
+.fors-totoggle {
+	padding: 0px;
+}
+
+.fors-totoggle p {
+	margin: 0 0 10px;
+	padding: 0px;
+}
+
+p.fors-bg-logo-img {
+	padding: 10px;
+	background: transparent url(img/bg-logo-img.png) repeat left top;
+	overflow: hidden;
+}
+
+.fors-option {
+	clear: both;
+	padding: 18px 18px 10px;
+	background: #fefefe;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.fors-option-alt {
+	padding: 19px 19px 9px;
+	background: #f9f9f9;
+	border: 1px solid #fff;
+}
+
+.fors-option-last {
+	border-bottom: none;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+}
+
+.fors-option h4 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.fors-option-left {
+	float: left;
+	width: 180px;
+}
+
+.fors-option-right {
+	float: right;
+	width: 500px;
+}
+
+#fors-themes-wrap .fors-option img {
+	float: left;
+	width: 370px;
+	margin: 0 20px 10px 0; 
+}
+
+#fors-themes-wrap .fors-option p {
+	margin: 0 0 20px;
+	line-height: 24px;
+}
+
+.fors-text, .fors-select {
+	width: 492px;
+	color: #333;
+}
+
+.fors-upload {
+	width: 392px;
+}
+
+.fors-textarea {
+	height: 96px;
+	color: #333;
+}
+
+.fors-description {
+	color: #777;
+	font-size: 11px;
+}
+
+.fors-description code {
+	color: #464646;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+.fors-reset .button:hover {
+	color: red;
+}
+
+#adminmenu .wp-menu-image img {
+	opacity: 1!important;
+}
+
+#toplevel_page_fs-theme-admin a {
+	line-height: 30px;
+}
+
+
+/*  ##################################
+    CLEARING
+    ################################## */
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}

@@ -1,0 +1,380 @@
+/*
+Theme Name: Köy - Dernek Teması
+Theme URI: http://www.mbtasarim.com
+Description:Köy ve Dernekler için Hazırlanmış wordpress teması.. 
+Version: 1.0
+Author: www.mbtasarim.com Musa KURU
+Author URI: mailto:bybarikat@mbtasarim.com
+Tags: köy, dernek,,mbtasarim,musa kuru worpress kurumsal
+*/
+
+/*  
+        Önemli Not : Bu Tema MB Tasarım (Musa Kuru 0538 499 22 63) Tarafından Köy ve Dernekler için Hazırlanmış bir wordpress temasıdır.. Temayı Çalan, lisansını kıran,izinsiz kullanan,dağıtan herkese hakkımı helal etmiyorum.. hepsiyle öbür dünyada hesaplaşıcaz..
+        Tema Tasarım : Musa KURU www.mbtasarim.com
+	CSS & XHTML : antijen
+	Msn Contact: msn(at)m3sut.org
+*/
+
+/*reset*/
+html, body, span, applet,object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; text-decoration:none;}
+ol, ul {  list-style:none;}
+blockquote, q { quotes: none; }
+/* focus style */
+:focus, a:focus, a:active{ outline: 0; }
+ins{ text-decoration: none; }
+del{ text-decoration: line-through; }
+.clear{clear:both;}
+/*reset*/
+body {background: #fff url(images/bg.jpg) top center no-repeat; background-attachment:fixed; margin: 0px;padding: 0px;font-family: Tahoma, Arial, Helvetica, sans-serif;color: #656464;font-size: 11px;}
+a {	color:#303030;	text-decoration:none;}
+a:visited {	color: #303030;	text-decoration: none;	}
+a:hover {color: #1d64b4;}
+img {border:none;margin: 0px;padding: 0px;}
+.clear {clear: both;}
+#sayfa {width: 982px; margin: 0px auto; background: url(images/wrap.png) repeat-y; overflow: hidden;}
+#ustbar { width: 970px; height: 27px; background: url(images/ustbar.png) top center no-repeat; margin: 0px auto 0px auto; }
+.ustbar-sol { width: 575px; height: 27px; float: left; display: inline; overflow: hidden;}
+.navmenu{ padding:0; margin-top: 1px;}
+.navmenu li{display:inline}
+.navmenu li a{float:left;color:#405102;text-decoration:none; border-left: 1px solid #729000;padding:0px 9px; height: 26px; line-height: 25px;}
+.navmenu li a:visited{color:#405102}
+.navmenu li a:hover{color:#000; background: url(images/hover1.png) top center no-repeat; }
+.navmenu li .ilk {border-left: 0px; }
+.navmenu li .son {border-right: 0px;  }
+.ustbar-sag { width: 380px; height: 26px; float: right; display: inline; overflow: hidden; text-align: right; line-height: 25px; margin-top: 1px; padding-right: 10px; color: #552c01; } 
+#header { width: 970px; height: 131px; background: url(images/logo_bg.jpg) top center; margin: 0px auto; overflow: hidden;  }
+.logo { width: 450px; height: 70px; margin-left: 16px; margin-top: 20px; }
+#menu { width: 970px; height: 52px; background: url(images/menu.png) top center no-repeat; overflow: hidden; margin: 0px auto; }
+.ustmenu{ padding:0; margin: 1px auto 0px auto;}
+.ustmenu li{display:inline}
+.ustmenu li a{float:left;color:#485b00;text-decoration:none; border-left: 1px solid #729000; padding:0px 12px; height: 42px; line-height: 42px;  font-size: 14px;}
+.ustmenu li a:visited{color:#485b00}
+.ustmenu li a:hover{color:#293302; background: url(images/hover2.png) top center no-repeat; }
+.ustmenu li .ilk {border-left: 0px;}
+.ustmenu li .son {border-right: 0px; width: 63px; text-align: center; } 
+#ortala { width: 960px; margin: 3px auto 0px auto; }
+#yanmenu { width: 277px; float: left; display: inline;}
+.hizlimenu_ust {width: 235px; height: 40px; background: url(images/hizlimenu_ust.png) no-repeat; color: #b68c11; text-shadow: #fff 1px 1px 1px; font-size: 14px; padding-left: 42px; line-height: 40px; }
+.hizlimenu_orta { width: 277px; background: url(images/hizlimenu_orta.png) repeat-y; height: 271px; overflow: hidden;  }
+.hizlimenu_alt {width: 277px; height: 8px; background: url(images/hizlimenu_alt.png) no-repeat; }
+#manset { width: 675px; float: right; display: inline; overflow: hidden; }
+.manset_ust { width: 675px; height: 4px; background: url(images/manset_ust.png) no-repeat; }
+.manset_alt { width: 675px; height: 4px; background: url(images/manset_alt.png) no-repeat; margin-bottom: 7px; }
+.manset_orta { width: 667px; border-left: 2px solid #d8d8d8; border-right: 2px solid #d8d8d8; height: 310px; padding-left: 4px; padding-top: 1px; overflow: hidden;  }
+#sol { width: 640px; float: left; display: inline;overflow: hidden; }
+#sag { width: 314px; float: right; display: inline; overflow: hidden;}
+#duyurular {width: 633px; height: 50px; background: url(images/duyurular.png) no-repeat; overflow: hidden; }
+.reklam468_ust { width: 633px; height: 8px; background: url(images/reklam468_bg.png) top center no-repeat; margin: 2px 0px 0px 0px;}
+.reklam468_orta { width: 631px; background: #fff; border-left: 1px solid #dadada; border-right: 1px solid #dadada; text-align: center; margin: 0px; }
+.reklam468_alt { width: 633px; height: 11px; background: url(images/reklam468_bg.png) bottom center no-repeat; margin: 0px 0px 2px 0px; text-align:center; padding-top: 5px;}
+.haberler_ust { width: 588px; height: 42px; background: url(images/haberler_ust.png) no-repeat; color: #3e7e00; text-shadow: #fff 1px 1px 1px; font-size: 14px; padding-left: 45px; line-height: 42px;  }
+.haberler_orta { width: 631px; border-left: 1px solid #cdcdcd; border-right: 1px solid #cdcdcd; overflow: hidden;}
+.haberler_alt { width: 633px; height: 15px; background: url(images/haberler_alt.png) no-repeat;  }
+.sayfalama { width: 617px; height: 35px; background: url(images/tumhaberler.jpg) top center; margin: 7px auto 0px auto; line-height: 37px; }
+.sayfalama_sol { width: 465px; float: left; display: inline; padding-left: 10px; }
+.sayfalama_sag { width: 138px; float: right; display: inline; text-align: center; color: #575757; font-size: 14px; font-weight: bold; font-family: Trebuchet MS, Arial, Helvetica, sans-serif;}
+.sayfalama_sag a:link, .sayfalama_sag a:visited { color: #575757; }
+.sayfalama_sag a:hover { color: #7ca711; }
+#fotogaleri { width: 640px; height: 180px; background: url(images/fotogaleri.jpg) no-repeat; overflow: hidden; }
+#fotogaleri h2 { color: #8f5700;  font-size: 15px; margin-left: 60px; margin-top: 13px; }
+#videogaleri { width: 640px; height: 180px; background: url(images/videogaleri.jpg) no-repeat; overflow: hidden; font-size: 15px; }
+#videogaleri h2 { color: #8f8222;  font-size: 15px; margin-left: 60px; margin-top: 13px; }
+#footer { width: 100%; height: 172px; background: url(images/footer.png) top center no-repeat; overflow: hidden;  }
+.haber {width: 198px; height: 230px; border: 2px solid #dadada; overflow: hidden; float: left; display: inline; margin-left: 6px; margin-top: 6px; -moz-border-radius: 4px;-webkit-border-radius:4px; }
+.haber_resim { width: 182px; height: 110px;  border: 1px solid #dadada; background: #fff; padding: 1px; margin: 5px auto 2px auto; overflow: hidden; }
+.haber_resim:hover { border: 1px solid #818181;  }
+.haber_resim img{ width: 182px; height: 110px; }
+.haber_ozet { width: 185px; height: 104px; overflow: hidden; margin: 0px auto; color: #434343; font-size: 12px; }
+.haber_ozet  h3 { font-size: 13px; color: #74a702; font-weight: bold; }
+.haber_ozet  h3 a:link, .haber_ozet  h3 a:visited{ color: #74a702;} 
+.haber_ozet  h3 a:hover{ color: #3e5903;} 
+
+.resim-video {width: 198px; height: 160px; border: 2px solid #dadada; overflow: hidden; float: left; display: inline; margin-left: 6px; margin-top: 6px; -moz-border-radius: 4px;-webkit-border-radius:4px; }
+.haber_ozet  h4 { font-size: 13px; color: #74a702; font-weight: bold; text-align:center; width: 175px; padding-top: 1px; margin: 0px auto; }
+.haber_ozet  h4 a:link, .haber_ozet  h4 a:visited{ color: #74a702;} 
+.haber_ozet  h4 a:hover{ color: #3e5903;} 
+
+.sag_ust {width: 374px; height: 42px; background: url(images/sag_ust.png) no-repeat; overflow: hidden; color: #8b6500; text-shadow: #fff 1px 1px 1px; font-size: 14px; line-height: 40px; padding-left:  40px; }
+.sag_alt { width: 314px; height: 12px; background: url(images/sag_alt.png) no-repeat; overflow: hidden; margin-bottom: 3px; }
+.sag_orta { width: 312px; border-left: 1px solid #dadada; border-right: 1px solid #dadada; padding-top: 5px; overflow: hidden; }
+.yazi { width: 302px; height: 56px; margin: 0px auto 3px auto; border: 1px solid #dadada; } 
+.yazar { width: 302px; height: 56px; margin: 0px auto 3px auto; background: url(images/yazar.png) no-repeat; } 
+.yazar_resim { width: 53px; height: 43px; float: left; display: inline; margin-left: 8px; margin-top: 7px; overflow: hidden; }
+.yazar_resim img{ width: 53px; height: 43px;}
+.yazar_ozet { width: 228px; height: 46px; float: right; display: inline; margin-right: 5px; overflow: hidden;margin-top: 5px; }
+.yazar_ozet span { font-weight: bold; font-size: 12px; }
+.yazar_ozet p { margin-bottom: 4px; margin-top: 1px; color: #5f5f5f; }
+.yazar_ozet a,.yazar_ozet a:link, .yazar_ozet a:visited{ color: #767676;}
+.yazar_ozet a:hover { text-decoration: underline; color: #000; }
+a.tum_yazarlar { display: block; width: 314px; height: 40px; background: url(images/tumyazarlar.png) no-repeat; overflow: hidden; margin-bottom: 3px; }
+a:hover.tum_yazarlar { background-position: bottom center;}
+.sag_ust2 { width: 314px; height:4px; background: url(images/sag_ust2.png) no-repeat; overflow: hidden; }
+.sag_orta2 { width: 312px; border-left: 1px solid #dadada; border-right: 1px solid #dadada; padding-top: 2px; overflow: hidden; }
+.yorumliste{width:300px; margin: 0px auto 0px auto; border: 1px solid #dadada;}
+.yorumliste ul{list-style-type:none;margin:0px;padding:0}
+.yorumliste ul li{padding-bottom:0px; display: inline;}
+.yorumliste ul li a{color:#707070;background:url(images/comment.png) no-repeat 5px center;display:block;text-decoration:none;border-bottom:1px dotted #b6b6b6;font-size:12px;padding:8px 0 8px 30px; overflow: hidden;}
+.yorumliste ul li a span { font-weight: bold; }
+.yorumliste ul li a:visited{color:#707070}
+.yorumliste ul li a:hover{color:#383838;background-color:#fff2bc;}
+.s1 { width: 75px; height: 32px; line-height: 31px; float: left; display: inline; margin-left: 9px; font-size: 12px; color: #787878; }
+.s2 { width: 10px; height: 32px; line-height: 31px; float: left; display: inline;color: #787878; }
+.s3{ width: 195px; height: 31px; background: url(images/input.png) no-repeat; float: left; margin-left: 6px; padding-left: 10px; padding-top: 1px; margin-bottom: 8px; }
+.s3 input { width: 180px; line-height: 28px; height:27px; border: 0px; background: transparent; color: #acacac; }
+a.sifremi { width: 112px; height:27px; display: block; background: url(images/sifremiunuttum.png) no-repeat; float: left; display: inline; text-indent: -9999px; margin-left: 100px;}
+.girisyap { width:89px; height: 27px; float: left; display: inline; background: url(images/girisyap.png) no-repeat; border: 0px; margin-left: 5px; }
+.konuekle { width: 304px; height: 53px; margin: 7px auto 2px auto;}
+.yanmenu{width:255px; margin: 5px auto 0px auto; }
+.yanmenu ul{list-style-type:none;margin:0px;padding:0}
+.yanmenu ul li{padding-bottom:0px; display: inline;}
+.yanmenu ul li a{color:#6a6a6a;background:url(images/menuok.png) no-repeat 5px center;display:block;text-decoration:none;border-bottom:1px dotted #a5c4ca;font-size:12px;padding:4px 0 3px 23px; overflow: hidden;}
+.yanmenu ul li a span { font-weight: bold; }
+.yanmenu ul li a:visited{color:#6a6a6a}
+.yanmenu ul li a:hover{color:#383838;background-color:#fff2bc;}
+#duyuruic{ width: 460px; height: 39px; line-height: 39px; float: left; display: inline; margin-left: 150px; margin-top: 2px; font-weight: bold; font-size: 12px; color: #808080; }
+#duyuruic a, #duyuruic a:link, #duyuruic a:visited { color: #808080;}
+#duyuruic a:hover { color: #000;}
+.duyuruileri { display: block; width: 22px; height: 40px; float: right; display: inline;}
+/***Resim Galerisi **/
+.jcarousel-skin-tango1 .jcarousel-direction-rtl{direction:rtl}
+.jcarousel-skin-tango1 .jcarousel-container-horizontal{width:560px; padding: 0px 30px; margin-left: 10px; padding-top: 17px;}
+.jcarousel-skin-tango1 .jcarousel-clip-horizontal{width:530px; margin-left: 12px;}
+.jcarousel-skin-tango1 .jcarousel-item{width:118px;height:103px;border:1px solid #adadad; padding: 3px; background: #fff;}
+.jcarousel-skin-tango1 .jcarousel-item img{width:118px;height:103px}
+.jcarousel-skin-tango1 .jcarousel-item-horizontal{margin-right:4px; margin-left: 3px;}
+.jcarousel-skin-tango1 .jcarousel-item-placeholder{background:#fff;color:#000}
+.jcarousel-skin-tango1 .jcarousel-next-horizontal{position:absolute;top:15px;right:5px;width:41px;height:114px;cursor:pointer;background:transparent;}
+.jcarousel-skin-tango1 .jcarousel-prev-horizontal{position:absolute;top:15px;left:0px;width:41px;height:114px;cursor:pointer;background:transparent;}
+/***Resim Galerisi **/
+.baslik { float: left;  display: inline; }
+.gormek { float: right; width: 200px;display: inline; margin-right: 35px; font-size: 11px; margin-top: 18px; text-align: center; font-weight: bold; color: #806400; }
+.gormek a, .gormek a:link, .gormek a:visited { color: #806400;}
+.gormek a:hover { color: #7a3f00; text-decoration: underline;}
+.gormek1 { float: right; width: 200px;display: inline; margin-right: 35px; font-size: 11px; margin-top: 18px; text-align: center; font-weight: bold; color: #7a3f00; }
+.gormek1 a, .gormek1 a:link, .gormek1 a:visited { color: #7a3f00;}
+.gormek1 a:hover { color: #945615; text-decoration: underline;}
+#footerortala { width: 970px; margin: 0px auto;}
+#footer_sol { width: 600px; height: 45px; float: left; display: inline; margin-top: 125px; color: #fff; }
+#footer_sag { width: 240px; height: 140px; float: right; display: inline; margin-top: 30px; overflow: hidden; overflow: hidden;}
+a.facebook { display: block; width: 125px; height: 70px; margin-left: 15px; float: left; display: inline; text-indent: -9999px;  }
+a.twitter { display: block; width: 98px; height: 70px;  margin-left: 1px; float: left; display: inline; text-indent: -9999px;  }
+a.mbtasarim { display: block; width: 165px; height: 45px;  float: right; display: inline; text-indent: -9999px; margin-top: 20px; }
+.tekilicerik { color: #4f4f4f; font-size: 12px; width: 612px; margin: 5px auto; overflow: hidden; }
+.tekilicerik p { margin: 0px 0px 5px 0px;}
+.tekilresim { float: left; padding: 3px; background: #fff; border: 1px solid #dadada; margin-right: 5px; }
+.bilgiler { background: url(images/konu-tag.png) no-repeat; width: 624px; height: 45px; margin: 0px auto 5px auto; overflow: hidden; }
+.bilgiler_sol { width: 81px; height: 30px; float: left; display: inline; margin-left: 8px; margin-top: 7px; font-size: 14px; color: #6d5e00; text-align:center; line-height: 30px; }
+.bilgiler_sag { width: 490px; height: 31px; float: left; display: inline; margin-top: 7px; margin-left: 20px; color: #626363; line-height: 31px;}
+.bilgiler_sag2 { width: 490px; height: 28px; float: left; display: inline; margin-top: 9px; margin-left: 20px; color: #626363;  overflow: hidden;}
+.bilgiler a, .bilgiler a:link, .bilgiler a:visited{ color: #626363; }
+.bilgiler a:hover{ color: #000; text-decoration: underline; }
+.paylas { width: 624px; height: 75px; background: url(images/paylas.png) no-repeat; margin: 0px auto; overflow: hidden; }
+
+.paylas_sol { width: 81px; height: 60px; float: left; display: inline; margin-left: 8px; margin-top: 7px; font-size: 14px; color: #6d5e00; text-align:center; line-height: 60px; }
+.paylas_sag { width: 500px; height: 80px; overflow: hidden; float: left; display: inline; margin-top: 9px; margin-left: 15px; color: #626363; }
+.y1 { width: 85px; height: 30px; float: left; display: inline; line-height: 30px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; font-size: 13px; color: #6d6d6d; margin-left: 15px;}
+.y2 { width: 10px; height: 30px;  float: left; display: inline; line-height: 30px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; font-size: 13px; color: #6d6d6d; margin-right: 5px;}
+.y3 { width: 494px; height: 26px; background: url(images/input2.png) no-repeat; float: left; display: inline; padding-left: 10px; padding-top: 4px;}
+.y3 input { width: 485px; height: 20px; border: 0px; background: transparent; color: #6d6d6d;font-family:Trebuchet MS, Arial, Helvetica, sans-serif;  }
+.y4 { width: 497px; height: 124px; background: url(images/textarea.png) no-repeat; float: left; display: inline; overflow: hidden; padding-top: 3px; padding-left: 7px; }
+.y4 textarea { width: 490px; height: 120px;  border: 0px; background: transparent; color: #6d6d6d;font-family:Trebuchet MS, Arial, Helvetica, sans-serif; }
+.yblok { margin-top: 5px; margin-bottom: 10px; }
+.yorumreset { display: block; width: 98px; height: 36px; float: left; display: inline; background: url(images/temizle.png) 
+no-repeat; border: 0px; margin-left: 419px; margin-bottom: 10px; }
+.kulhakki { Bu Tema MB Tasarım (Musa Kuru 0538 499 22 63) Tarafından Köy ve Dernekler için Hazırlanmış bir wordpress temasıdır.. Temayı Çalan, lisansını kıran,izinsiz kullanan,dağıtan herkese hakkımı helal etmiyorum.. hepsiyle öbür dünyada hesaplaşıcaz..
+Hikmet ehli zatlar buyuruyor ki:
+* Bir kimse Peygamberlerin yaptığı ibadetleri yapsa fakat üzerinde bir kuruş kul hakkı bulunsa, bu bir kuruşu ödemedikçe Cennete giremez.
+* Kul hakkı çok mühimdir. Allahü teâlâ her türlü günahı affedebilir. Ama, kul hakkıyla gelmeyin buyuruyor. Kul hakkıyla gidenin işi adalete bırakılır. Adaletin ne şekilde hüküm vereceği belli olmaz. Allah korusun çok kimse ümitle gider de, hâli perişan olur.
+* Size haksızlık eden, zulmeden, malınızı mülkünüzü gasp eden aslında size iyilik etmiştir. Eyvah onların haline. Sen mazlum, onlar zalim. Alan düşünsün. Ahirette zalim ağlayacak, mazlum gülecek. Zalim verecek, mazlum alacak. 
+* Unutmayın ki Allah Bütün Pişmanlıkları Tövbeleri affeder..yeterki içten etmeyi bilmeli ve o hatayı tekrar yapmamalı..
+* Eğer temayı dağıtıyorsan şifresini kırıyorsan veya izinsiz kullanıyorsan vs vs.. bu gizli yazımı okuyup tekrar bi düşün bunu yapmadan önce.. }
+.yorumgonder { display: block; width: 98px; height: 36px; float: left; display: inline; background: url(images/gonder.png) no-repeat; border: 0px; margin-left: 5px;  }
+.biryorum { width: 600px; padding: 5px ; border: 1px solid #bcbcbc; margin: 0px auto; -moz-border-radius: 4px;-webkit-border-radius:4px; margin-bottom: 4px; }
+.yorumavatar { width: 57px; height: 57px; float: left; display: inline; padding: 1px; border: 1px solid #bcbcbc; -moz-border-radius: 4px;-webkit-border-radius:4px; }
+.yorumavatar img{ width: 57px; height: 57px;}
+.yorumicerik { width: 531px; float: left; display: inline; margin-left: 7px; color: #6d6d6d; }
+.yazaran { float: left; display: inline; font-weight: bold; font-size: 12px; font-style: normal; }
+.yazaran a, .yazaran a:link, .yazaran a:visited {color: #6d6d6d; }
+.yazaran a:hover {color: #000; }
+.yorumtarih { float: right; display: inline; color: #c6c6c6; }
+.yorumtarih  a,.yorumtarih a:link,.yorumtarih a:visited {color: #c6c6c6;}
+.yorumicerik p { margin: 3px 0px }
+.uyegirdi_avatar {  border:1px solid #dadada; width: 100px; height: 110px; overflow: hidden; float: left; display: inline; margin-left: 5px; margin-bottom: 3px; } 
+.uyegirdi_avatar img{ width: 100px; height: 110px;}
+.uyegirdi_bilgi { width: 193px; height: 110px; float: left; display: inline; margin-left: 8px; overflow: hidden; }
+.uyegirdix { width: 180px; background: url(images/ok2.png) center left no-repeat; padding: 6px 0px 6px 13px; border-bottom: 1px dotted #535353; font-size: 12px; color: #656565; }
+.uyegirdix a, .uyegirdix a:link, .uyegirdix a:visited{ color: #656565;;}
+.uyegirdix a:hover {color: #000; }
+.yesil { color: #2c8f00; font-weight: bold; }
+.kirmizi {color: #ff0000; text-decoration: underline; }
+
+/*defaultwp basladi*/
+code{font:1.1em 'Courier New',Courier,Fixed}
+acronym, abbr, span.caps{font-size:0.9em; letter-spacing:.07em}
+p img{padding:0; max-width:100%}
+img.centered{display:block; margin-left:auto; margin-right:auto}
+img.alignright{padding:4px; margin:0 0 2px 7px; display:inline}
+img.alignleft{padding:4px; margin:0 7px 2px 0; display:inline}
+.alignright{float:right}
+.alignleft{float:left}
+select{width:130px}
+.children{padding:0}
+acronym, abbr, span.caps{cursor:help}
+acronym, abbr{border-bottom:1px dashed #999}
+blockquote{margin:15px 30px 0 10px; padding-left:20px; border-left:5px solid #ddd}
+blockquote cite{margin:5px 0 0; display:block}
+.center{text-align:center}
+.hidden{display:none}
+.screen-reader-text{ position:absolute;  left:-1000em}
+.aligncenter, 
+div.aligncenter{display:block; margin-left:auto; margin-right:auto}
+.wp-caption{border:1px solid #ddd; text-align:center; background-color:#f3f3f3; padding-top:4px; margin:10px; -moz-border-radius:3px; -khtml-border-radius:3px; -webkit-border-radius:3px; border-radius:3px}
+.wp-caption img{margin:0; padding:0; border:0 none}
+.wp-caption p.wp-caption-text{font-size:11px; line-height:17px; padding:0 4px 5px; margin:0}
+/* defaultwp bitti*/
+.ortacik { width: 594px; margin: 10px auto 0px auto; font-size: 13px; border-left: 3px solid #a7d10b;border-right: 3px solid #a7d10b;  background: #f2ffc2; padding: 3px 5px; border-top: 1px solid #a7d10b;border-bottom: 1px solid #a7d10b;  }
+
+
+.input {
+background: #fff7e9;
+font-family: Tahoma,Arial, Helvetica, sans-serif;
+font-size: 14px;
+border: 1px solid #c8c8c8;
+width: 610px;
+height: 25px;
+color: #696969;
+}
+
+
+.input:hover {
+background: #daebff;
+font-family: Tahoma,Arial, Helvetica, sans-serif;
+font-size: 14px;
+border: 1px solid #969696;
+width: 610px;
+height: 25px;
+color: #696969;
+}
+
+
+.notunuz {
+background: #fff7e9;
+font-family: Tahoma,Arial, Helvetica, sans-serif;
+font-size: 14px;
+border: 1px solid #c8c8c8;
+width: 610px;
+height: 100px;
+color: #696969;
+}
+
+
+
+.notunuz:hover {
+background: #daebff;
+font-family: Tahoma,Arial, Helvetica, sans-serif;
+font-size: 14px;
+border: 1px solid #969696;
+width: 610px;
+height: 100px;
+color: #696969;
+}
+
+
+.gonderbuton {
+background: #009cff;
+font-family: Trebuchet MS;
+font-size: 14px;
+font-weight: BOLD;
+border: 2px solid #CCCCCC;
+width: 100px;
+height: 30px;
+color: #FFFFFF;
+}
+
+
+.gonderbuton:hover {
+background: #ff9000;
+font-family: Trebuchet MS;
+font-size: 14px;
+font-weight: BOLD;
+border: 2px solid #000000;
+width: 100px;
+height: 30px;
+color: #FFFFFF;
+}
+
+.partlist  { 
+
+background-color:#E2F1FF;
+
+color:#007CEF;
+
+font-family:trebuchet MS;
+
+font-size:14px;
+
+font-weight:bold;
+
+text-decoration:none;
+
+}  
+
+
+
+.partlist a:hover  { 
+
+background-color:#ff9c00;
+
+color:#FFFFFF;
+
+font-family:trebuchet MS;
+
+font-size:14px;
+
+font-weight:bold;
+
+text-decoration:none;
+
+}  
+
+.partlist a:visited  { 
+
+color:#000000;
+
+font-family:trebuchet MS;
+
+font-size:14px;
+
+font-weight:bold;
+
+text-decoration:none;
+
+}  
+
+.partlist a:active  { 
+
+color:#000000;
+
+font-family:trebuchet MS;
+
+font-size:14px;
+
+font-weight:bold;
+
+text-decoration:none;
+
+}  
+
+
+.simplesocial-box  {
+width: 580px;
+}  
+
+.simplesocial2  {
+width: 75px;
+float:left;
+}  
+
+.pluson  {
+width: 75px;
+}

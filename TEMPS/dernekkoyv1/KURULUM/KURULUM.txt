@@ -1,0 +1,12 @@
+Öncelikle Bizi Tercih ettiðiniz için Teþekkürler..
+Kurulum:
+1.Site Klasörü içinde bulunan VERÝTABANI/sql dosyasýný veri tabanýnýza import ediniz.
+2.Site Klasörü içinde bulunan admin/include/baglan.php dosyasýný açýp gerekli ayarlarý yapýnýz.
+
+Size Paneline Giriþ
+www.siteadi.com/admin
+
+Kullanýcý adý : admin
+Parola : admin
+
+Tüm Öneri ve Sorunlarýnýz için, http://donanimplus.com 'dan bize ulaþabilirsiniz.

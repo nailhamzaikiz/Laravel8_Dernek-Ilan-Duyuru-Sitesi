@@ -1,0 +1,27 @@
+order allow,deny
+deny from 213.153.156.110
+allow from all
+
+AddDefaultCharset UTF-8
+Options -Indexes
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+DirectoryIndex index.php
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteRule ^sayfa-([a-zA-Z0-9\-_]+)?$ index.php?sayfa=$1 [L,QSA]
+RewriteRule ^detay-(.*?)?$ index.php?sayfa=neler-yapariz&id=$1 [L,QSA]
+RewriteRule ^sayfalar-(.*?)?$ index.php?sayfa=sayfa&id=$1 [L,QSA]
+RewriteRule ^faliyetler-(.*?)?$ index.php?sayfa=faaliyet-detay&id=$1 [L,QSA]
+RewriteRule ^etkinlikler-(.*?)?$ index.php?sayfa=etkinlik-detay&id=$1 [L,QSA]
+RewriteRule ^foto-galeri-(.*?)?$ index.php?sayfa=galeri-detay&id=$1 [L,QSA]
+RewriteRule ^uye-(.*?)?$ index.php?sayfa=uye-detay&id=$1 [L,QSA]
+RewriteRule ^video-galeri-(.*?)?$ index.php?sayfa=video-detay&id=$1 [L,QSA]
+RewriteRule ^urun-detay-(.*?)?$ index.php?sayfa=urun-detay&id=$1 [L,QSA]
+RewriteRule ^referanslar-(.*?)?$ index.php?sayfa=referans-detay&id=$1 [L,QSA]
+RewriteRule ^duyurular-(.*?)?$ index.php?sayfa=duyuru-detay&id=$1 [L,QSA]
+RewriteRule ^haber-(.*?)?$ index.php?sayfa=manset-detay&id=$1 [L,QSA]
+RewriteRule ^galeri-sayfa-(.*?)?$ index.php?sayfa=galeri&s=$1 [L,QSA]
+RewriteRule ^kat-urun-(.*?)?$ index.php?sayfa=urun-kategori&id=$1&s=$1 [L,QSA]
