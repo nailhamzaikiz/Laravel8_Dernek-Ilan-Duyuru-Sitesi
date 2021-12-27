@@ -73,11 +73,11 @@
                                 <a class="nav-link" href=""><i class="far fa-comment-alt opacity-6 me-2 text-md "></i>İletişim</a>
                             </li>
                             <li class="nav-item my-auto ms-3 ms-lg-0 dropdown dropdown-hover">
-                                <a href="" class="btn btn-sm btn-outline-info text-nowrap mb-0"  >Oturum Aç</a>
+                                <a href="/admin/login" class="btn btn-sm btn-outline-info text-nowrap mb-0"  >Oturum Aç</a>
                                 <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
                                     <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-0 mt-0">
                                         <a href="">Kayıt Ol</a>
-                                        </h6>
+                                    </h6>
                                 </div>
                             </li>
                         </ul>
